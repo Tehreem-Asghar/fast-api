@@ -13,6 +13,7 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 Verify installation:
 
 uv --version
+
 2️⃣ Create and Initialize the Project
 uv init simple-api
 cd simple-api
@@ -25,10 +26,13 @@ uv add fastapi[standard]
 For Linux/macOS:
 
 source .venv/bin/activate
+
 5️⃣ Run Simple API
+
 fastapi dev main.py
 
 6️⃣ Test the API
+
 Paste the following into your browser:
 
 http://127.0.0.1:8000/side_hustles
