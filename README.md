@@ -16,8 +16,10 @@ uv --version
 2️⃣ Create and Initialize the Project
 uv init simple-api
 cd simple-api
+
 3️⃣ Install FastAPI (Dependency)
 uv add fastapi[standard]
+
 4️⃣ Activate UV Virtual Environment (Windows)
 .venv\Scripts\activate
 For Linux/macOS:
@@ -25,6 +27,7 @@ For Linux/macOS:
 source .venv/bin/activate
 5️⃣ Run Simple API
 fastapi dev main.py
+
 6️⃣ Test the API
 Paste the following into your browser:
 
